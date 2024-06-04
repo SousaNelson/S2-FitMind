@@ -1,0 +1,33 @@
+{
+    "development": {
+      "username": "dbaula14",
+      "password": "nelsonsousajs",
+      "database": "FitMind",
+      "host": "dpg-cpatkodds78s73d82ng0-a.oregon-postgres.render.com",
+      "dialectOptions": {
+        "ssl":true
+      },
+      "dialect": "postgres"
+      
+    },
+    "test": {
+      "username": "postgres",
+      "password": "nelsonsousajs",
+      "database": "FitMind",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+      
+    },
+    "production": {
+      "username": "dbaula14",
+      "password": "rvsYQ1hDO9mQxCKSJfbsRMRrSoawY7fx",
+      "host":"dpg-cpatkodds78s73d82ng0-a.oregon-postgres.render.com",
+      "database": "database_production",
+      "dialectOptions": {
+        "ssl":true
+      },
+      "dialect": "postgres"
+      
+    }
+}
+  

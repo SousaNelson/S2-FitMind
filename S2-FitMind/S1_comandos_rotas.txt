@@ -1,0 +1,36 @@
+Para os pacientes:
+/pacientes --> GET patients: para pegar todos os pacientes.
+/patients/id --> GET patients/id: pegar um patients com base no seu id.
+/patients --> POST: criar um novo cliente.
+/patients --> DELETE: patients por id para deletar um patient especifico
+/patients --> PUT: atualiza um patient já criado.
+
+Para os videos-fisica:
+/videos-fisica --> GET videos-fisica para pegar todos os pacientes.
+/videos-fisica/id --> GET videos-fisica/id: pegar um video com base no seu id.
+/videos-fisica --> POST: criar um novo video.
+/videos-fisica --> DELETE: videos-fisica por id para deletar um video específico
+/videos-fisica --> PUT: atualiza um video já criado.
+
+Para os videos-mente:
+/videos-mente --> GET videos-mente para pegar todos os pacientes.
+/videos-mente/id --> GET videos-mente/id: pegar um video com base no seu id.
+/videos-mente --> POST: criar um novo video.
+/videos-mente --> DELETE: videos-mente por id para deletar um video específico.
+/videos-mente --> PUT: atualiza um video já criado.
+
+Para as activities(atividades fisicas):
+/activities --> GET activities para pegar todos os pacientes.
+/activities/id --> GET activities/id: pegar um patients com base no seu id.
+/activities --> POST: criar um novo activities.
+/activities --> DELETE: activities por id para deletar uma atividade específica
+/activities --> PUT: atualiza uma atividade já criada.
+
+Para as sessões(fisioterapias):
+/sessions--> GET sessions para pegar todas as sessões.
+/sessions/id --> GET activities/id: pegar um sessions com base no seu id.
+/sessions --> POST: criar um novo sessions.
+/sessions --> DELETE: sessions por id para deletar uma sessão específica.
+/sessions --> PUT: atualiza uma sessão já criada.
+
+Esses métodos são aplicados às restantes rotas do projeto. 
